@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 
-// git 
 @Component({
-  selector: 'am-root',
-  templateUrl: './complete.component.html',
-  styleUrls: ['./complete.component.css']
+  selector: 'pm-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'complete-new';
