@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { appRoutingModule } from './app.routing';
+import { routingModule } from './app.routing';
 import { AppComponent } from './app.component';
 import { FormComponent } from '../form/form.component';
 import { FooterComponent } from '../footer/footer.component';
+import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
 
 @NgModule({
@@ -12,11 +13,12 @@ import { RegisterComponent } from './register';
     AppComponent,
     FormComponent,
     FooterComponent,
+    LoginComponent,
     RegisterComponent
   ],
   imports: [
     BrowserModule,
-    appRoutingModule
+    routingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
