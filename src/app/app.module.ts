@@ -5,6 +5,7 @@ import { routingModule } from './app.routing';
 import { AppComponent } from './app.component';
 import { FormComponent } from '../form/form.component';
 import { FooterComponent } from '../footer/footer.component';
+import { HomeComponent } from './home';
 import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
 
@@ -13,6 +14,7 @@ import { RegisterComponent } from './register';
     AppComponent,
     FormComponent,
     FooterComponent,
+    HomeComponent,
     LoginComponent,
     RegisterComponent
   ],
